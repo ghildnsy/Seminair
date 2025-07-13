@@ -2,7 +2,7 @@
 
 Aplikasi ini digunakan untuk pengelolaan dan pendaftaran peserta seminar secara online. Dibangun berbasis web menggunakan PHP native
 
-##✨ Fitur Utama
+## ✨ Fitur Utama
 - SignIn/SignUp
 - Pendaftaran peserta seminar.
 - Menyimpan data peserta ke database.
