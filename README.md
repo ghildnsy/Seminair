@@ -1,2 +1,4 @@
-# Seminair
-Aplikasi berbasis web untuk pendaftaran seminar secara online
+UAS PEMROGRAMAN WEB
+
+Link Hosting:
+https://seminair.fyinotes.me/
