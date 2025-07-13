@@ -5,7 +5,7 @@ Aplikasi ini digunakan untuk pengelolaan dan pendaftaran peserta seminar secara 
 ## ✨ Fitur Utama
 - SignIn/SignUp
 - Pendaftaran peserta seminar.
-- Menyimpan data peserta ke database.
+- Menyimpan data event dan peserta ke database.
 - Panel admin untuk melihat & mengelola data pendaftar.
 
 ---
