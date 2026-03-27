@@ -30,8 +30,14 @@ if ($target === false || strpos($target, $projectRoot) !== 0 || !is_file($target
 
 $extension = strtolower(pathinfo($target, PATHINFO_EXTENSION));
 if ($extension !== 'php') {
-    http_response_code(404);
-    echo 'Not Found';
+    $mime = mime_content_type($target);
+    if ($mime === false) {
+        $mime = 'application/octet-stream';
+    }
+
+    header('Content-Type: ' . $mime);
+    header('Cache-Control: public, max-age=300');
+    readfile($target);
     exit;
 }
 
